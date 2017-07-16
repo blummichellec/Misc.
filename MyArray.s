@@ -1,3 +1,6 @@
+# This assembly language program is used to create an array proccessor.
+# © 2017 MICHELLE BLUM ALL RIGHTS RESERVED
+
 .text
 .global _start
 	_start:
@@ -7,7 +10,7 @@ movia r2, 0x10000040 #SW Switches base address
 movia r3, myArray #Array base address
 
 BEGIN:
-# <ADD COMMENT>
+# Selecting the bits to focus on
 	ldwio r4, 0(r2) #Load the value of the switches into register 4
 	andi  r4, r4, 0xF #Isolates 4 least significant bits
 
