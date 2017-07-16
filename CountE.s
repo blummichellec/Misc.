@@ -1,3 +1,5 @@
+# © 2017 MICHELLE BLUM ALL RIGHTS RESERVED
+
 /********************************************************************************
  * This program demonstrates the ability to count the E's in a string
  *
